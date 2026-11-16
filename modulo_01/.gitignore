@@ -1,0 +1,94 @@
+
+# ============================================================
+# AMBIENTE PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Distribuição e instalação
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================
+# IDEs E EDITORES
+# ============================================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ============================================================
+# ARQUIVOS DE CONFIGURAÇÃO E SEGREDOS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Arquivos locais de configuração
+config.local.yaml
+config.local.yml
+
+# ============================================================
+# LOGS E RELATÓRIOS GERADOS
+# ============================================================
+
+logs/*.log
+logs/*.txt
+logs/*.json
+
+# ============================================================
+# DADOS DO PIPELINE ETL
+# ============================================================
+
+# Dados brutos: não versionar arquivos de dados
+data/raw/*
+!data/raw/.gitkeep
+
+# Dados processados
+data/processed/*
+!data/processed/.gitkeep
+
+# Dados rejeitados
+data/rejected/*
+!data/rejected/.gitkeep
+
+# ============================================================
+# ARQUIVOS TEMPORÁRIOS
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+
+# ============================================================
+# TESTES E QUALIDADE DE CÓDIGO
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# ============================================================
+# SISTEMA OPERACIONAL
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
